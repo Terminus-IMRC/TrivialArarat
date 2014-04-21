@@ -23,6 +23,7 @@ int main()
 #define douse(en) \
 	if(used&((uint32_t)1<<m##en)){ \
 		continue; \
+	}else{ \
 		used|=(uint32_t)1<<m##en; \
 	}
 
