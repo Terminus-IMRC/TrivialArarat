@@ -42,6 +42,7 @@ mfor(1){
 					tcont(m1+m7+m13+m19<ls-25);
 					m25=ls-(m19+m13+m7+m1);
 					tcont(m25<=0);
+					tcont(!(m1<m25));
 					douse(25);
 					/* Now the square is like:
 					   o    
@@ -53,6 +54,7 @@ mfor(1){
 
 					/* right-top to left-below */
 					mfor(5){
+						tcont(!(m1<m5));
 						douse(5);
 						mfor(9){
 							douse(9);
@@ -62,6 +64,7 @@ mfor(1){
 								tcont(m5+m9+m13+m17<ls-25);
 								m21=ls-(m5+m9+m13+m17);
 								tcont(m21<=0);
+								tcont(!(m5<m21));
 								douse(21);
 								/* Now the square is like:
 									o   o
