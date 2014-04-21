@@ -7,7 +7,7 @@ int main()
 {
 	int8_t m1, m2, m3, m4, m5, m6, m7, m8, m9, m10, m11, m12, m13, m14, m15, m16, m17, m18, m19, m20, m21, m22, m23, m24, m25;
 	uint32_t used=(uint32_t)0;
-	uint32_t used1, used2, used3, used4, used5, used6, used7, used8, used9, used10, used11, used12, used13, used14, used15, used16, used17, used18, used19, used20, used21, used22, used23, used24, used25;
+	uint32_t used1, used2, used3, used5, used6, used7, used8, used9, used11, used13, used17, used19, used22, used23;
 	long long int count=0;
 
 	printf("line sum: %d\n", ls);
