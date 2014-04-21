@@ -34,7 +34,7 @@ int main()
 	}
 
 	/* left-top to right-below */
-mfor(1)
+	mfor(1)
 		douse(1);
 		mfor(7)
 			douse(7);
